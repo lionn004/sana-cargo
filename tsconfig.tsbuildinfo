@@ -1,0 +1,1 @@
+{"root":["./src/App.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/components/TopNavBar.tsx","./src/context/AuthContext.tsx","./src/pages/Accueil.tsx","./src/pages/MesExpeditions.tsx","./src/pages/MonProfil.tsx","./src/pages/NouvelleExpedition.tsx","./src/pages/Recapitulatif.tsx","./src/pages/SuiviColis.tsx"],"version":"6.0.3"}
