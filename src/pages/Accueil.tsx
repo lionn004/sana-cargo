@@ -35,7 +35,7 @@ const Accueil: React.FC = () => {
 
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault()
-    login('Jean Dupont')
+    login('Abdoulwalyoulahe SANA')
   }
 
   const handleRegister = (e: React.FormEvent) => {
@@ -70,7 +70,7 @@ const Accueil: React.FC = () => {
             <div className="relative z-10 max-w-container-max mx-auto px-margin-desktop w-full">
               <div className="grid lg:grid-cols-2 gap-gutter items-center">
                 <div className="max-w-2xl text-white mx-auto text-center">
-                  <h1 className="font-display-lg text-display-lg mb-6 leading-tight">Votre Pont Logistique de la Chine au Burkina Faso</h1>
+                  <h1 className="font-display-lg text-display-lg mb-6 leading-tight">Votre passerelle entre la Chine et le Burkina Faso</h1>
                   <p className="font-body-lg text-body-lg text-surface-container-lowest mb-10 opacity-90">Optimisez votre chaîne d'approvisionnement avec SANA CARGO. On transporte toutes vos marchandises de la Chine vers le Burkina Faso.</p>
                   <div className="flex flex-col sm:flex-row gap-4 justify-center">
                     <button
@@ -132,7 +132,7 @@ const Accueil: React.FC = () => {
           <div className="relative z-10 max-w-container-max mx-auto px-margin-desktop w-full">
             <div className="grid lg:grid-cols-2 gap-gutter items-center">
               <div className="max-w-2xl text-white">
-                <h1 className="font-display-lg text-display-lg mb-6 leading-tight">Votre Pont Logistique de la Chine au Burkina Faso</h1>
+                <h1 className="font-display-lg text-display-lg mb-6 leading-tight">Votre passerelle entre la Chine et le Burkina Faso</h1>
                 <p className="font-body-lg text-body-lg text-surface-container-lowest mb-10 opacity-90">Optimisez votre chaîne d'approvisionnement avec SANA CARGO. On transporte toutes vos marchandises de la Chine vers le Burkina Faso.</p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <button className="px-8 py-4 bg-secondary-container text-on-secondary-container rounded-xl font-bold text-lg hover:scale-105 active:scale-95 transition-all shadow-lg flex items-center justify-center gap-2"
@@ -184,12 +184,12 @@ const Accueil: React.FC = () => {
                           <div>
                             <label className="block font-label-sm text-label-sm text-outline mb-1 uppercase">Prénom</label>
                             <input className="w-full bg-surface-container-low border border-outline-variant rounded-xl py-3 px-4 font-body-md focus:ring-2 focus:ring-primary"
-                              value={regFname} onChange={e => setRegFname(e.target.value)} placeholder="Jean" required type="text" />
+                              value={regFname} onChange={e => setRegFname(e.target.value)} placeholder="Abdoulwalyoulahe" required type="text" />
                           </div>
                           <div>
                             <label className="block font-label-sm text-label-sm text-outline mb-1 uppercase">Nom</label>
                             <input className="w-full bg-surface-container-low border border-outline-variant rounded-xl py-3 px-4 font-body-md focus:ring-2 focus:ring-primary"
-                              value={regLname} onChange={e => setRegLname(e.target.value)} placeholder="Dupont" required type="text" />
+                              value={regLname} onChange={e => setRegLname(e.target.value)} placeholder="SANA" required type="text" />
                           </div>
                         </div>
                         <div>
