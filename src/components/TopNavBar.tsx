@@ -98,7 +98,7 @@ const TopNavBar: React.FC<TopNavBarProps> = ({ activeSection }) => {
                 </div>
                 <div className="text-left hidden lg:block">
                   <p className="text-xs font-label-sm text-outline uppercase leading-none mb-1">Espace Client</p>
-                  <p className="font-bold text-primary leading-none">{userName || 'Jean Dupont'}</p>
+                  <p className="font-bold text-primary leading-none">{userName || 'Abdoulwalyoulahe SANA'}</p>
                 </div>
                 <span className="material-symbols-outlined text-outline">expand_more</span>
               </button>
