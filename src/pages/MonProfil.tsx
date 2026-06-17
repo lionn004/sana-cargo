@@ -49,7 +49,7 @@ const MonProfil: React.FC = () => {
                     </div>
                   </div>
                   <div className="text-center">
-                    <h2 className="text-title-md font-title-md text-on-surface">Jean Dupont</h2>
+                    <h2 className="text-title-md font-title-md text-on-surface">Abdoulwalyoulahe SANA</h2>
                     <p className="text-label-sm text-on-surface-variant uppercase tracking-widest mt-1">Logistics Coordinator</p>
                   </div>
                 </div>
@@ -59,19 +59,19 @@ const MonProfil: React.FC = () => {
                   <div className="space-y-2">
                     <label className="font-label-sm text-label-sm text-on-surface-variant block uppercase tracking-wider">Prénom</label>
                     <input className="w-full p-3 bg-surface-container-low border border-outline-variant rounded-lg focus:ring-2 focus:ring-primary focus:border-primary transition-all font-body-md outline-none"
-                      placeholder="Prénom" type="text" defaultValue="Jean" />
+                      placeholder="Prénom" type="text" defaultValue="Abdoulwalyoulahe" />
                   </div>
                   <div className="space-y-2">
                     <label className="font-label-sm text-label-sm text-on-surface-variant block uppercase tracking-wider">Nom</label>
                     <input className="w-full p-3 bg-surface-container-low border border-outline-variant rounded-lg focus:ring-2 focus:ring-primary focus:border-primary transition-all font-body-md outline-none"
-                      placeholder="Nom" type="text" defaultValue="Dupont" />
+                      placeholder="Nom" type="text" defaultValue="SANA" />
                   </div>
                   <div className="space-y-2 md:col-span-2">
                     <label className="font-label-sm text-label-sm text-on-surface-variant block uppercase tracking-wider">Email Professionnel</label>
                     <div className="relative">
                       <span className="absolute left-3 top-1/2 -translate-y-1/2 material-symbols-outlined text-outline text-xl">mail</span>
                       <input className="w-full pl-11 pr-3 py-3 bg-surface-container-low border border-outline-variant rounded-lg focus:ring-2 focus:ring-primary focus:border-primary transition-all font-body-md outline-none"
-                        placeholder="email@entreprise.com" type="email" defaultValue="jean.dupont@logistics-pro.com" />
+                        placeholder="email@entreprise.com" type="email" defaultValue="abdoulwalyoulahe.sana@logistics-pro.com" />
                     </div>
                   </div>
                   <div className="space-y-2">
